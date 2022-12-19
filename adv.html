@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *  { margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a { text-decoration: none;}
+
+        header {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(ice-mountain.jpg);   
+            background-position: bottom;
+            background-size: cover;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        .header-content {
+            margin-top: 50px;
+            color: rgb(34, 34, 112);
+            text-align: center;
+
+        }
+        .header-content h2 {
+            font-size: 4vmin;
+        }
+        .line {
+            width: 150px;
+            height: 4px;
+            background: brown;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+        .header-content h1 {
+            font-size: 7vmin;
+            margin-top: 15px;
+            margin-bottom: 25px;
+
+        }
+        .ctn {
+            padding: 5px;
+            background: brown;
+            border-radius: 30px;
+            color: whitesmoke;
+        }
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+ul {
+    list-style: none;
+}
+.active {
+    color: whitesmoke;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links li {
+    margin: 0 30px;
+}
+ li a:hover {
+    padding: 10x;
+    color: blue;
+    border-radius: 5px;
+
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li> <a href="#"></a>Home</li>
+            <li> <a href="#"></a>Tours</li>
+            <li> <a href="#"></a>Explore</li>
+            <li> <a href="#"></a>About</li>
+            <li class="ctn"> <a href="#"></a>Contact</li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Coloreful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+</body>
+</html>
